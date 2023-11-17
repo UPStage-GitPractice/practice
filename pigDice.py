@@ -1,4 +1,13 @@
-# pig dice program
+
+
+def UserTurn():
+    roll = random.randint(1,10)
+    return roll
+
+def ComputerTurn():
+    roll = random.randint(1,10)
+    return roll
+
 while Number_of_Turns <= Total_turn:
     UserScore = UserTurn()
     if UserScore !=1:
